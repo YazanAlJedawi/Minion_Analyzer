@@ -1,4 +1,4 @@
-# file: analyzer.py
+
 from commands_handler import *
 from parsers import *
 from collections import Counter
