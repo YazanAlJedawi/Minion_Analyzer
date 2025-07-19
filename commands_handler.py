@@ -1,8 +1,6 @@
 
 import os
 
-SCRIPT_NAME = os.path.basename(__file__)
-AVALIABLE_EXECUTION_COMMANDS = ['c2-analysis', 'dns-analysis', 'ssh-analysis', 'help', 'exit', 'logo']
 
 LOGO_STR = r"""
 
@@ -23,7 +21,7 @@ def help_msg_func():
     return f"""\n
 {LOGO_STR}
 
-Usage: python analyzer.py [MODE] [OPTIONS]
+Usage: python Minion.py [MODE] [OPTIONS]
 
 Available modes:
   c2-analysis <conn.log> <http.log>      Run C2 beaconing detection from Zeek logs.
@@ -31,12 +29,13 @@ Available modes:
   ssh-analysis <auth.log>                Analyze SSH login patterns with geo-location.
 
 Examples:
-  python analyzer.py c2-analysis logs/conn.log logs/http.log output.log
-  python analyzer.py dns-analysis logs/dns.log output.log
-  python analyzer.py ssh-analysis logs/auth.log
+  python Minion.py c2-analysis logs/conn.log logs/http.log output.log
+  python Minion.py dns-analysis logs/dns.log output.log
+  python Minion.py ssh-analysis logs/auth.log
 
 
-  help, h     Show this guide.
+  help      : Show this guide.
+  logo      : prints the logo.
 
 
 Note:
