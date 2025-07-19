@@ -1,5 +1,19 @@
 # Minion Log Analyzer
 
+```
+
+ ███╗   ███╗██╗███╗   ██╗██╗ ██████╗ ███╗   ██╗
+ ████╗ ████║██║████╗  ██║██║██╔═══██╗████╗  ██║
+ ██╔████╔██║██║██╔██╗ ██║██║██║   ██║██╔██╗ ██║
+ ██║╚██╔╝██║██║██║╚██╗██║██║██║   ██║██║╚██╗██║
+ ██║ ╚═╝ ██║██║██║ ╚████║██║╚██████╔╝██║ ╚████║
+ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝  
+
+```
+
+## Overview
+
+
 **Minion** is a Python-based log analyzer designed to help security analysts and system administrators detect suspicious activities within network and system logs.
 
 ---
@@ -22,7 +36,7 @@
   * [Leveraging Geographic Info in Kibana](#leveraging-geographic-info-in-kibana)
 * [Log Formats](#log-formats)
 * [Contributing](#contributing)
-* [License](#license)
+
 
 ---
 
@@ -195,10 +209,7 @@ python analyzer.py ssh-analysis /var/log/auth.log
 
 ## Contributing
 
-Minion is still in development. Contributions are welcome!
+this buddy is still not completely ready to roll, so contributions are welcome!
 
-* Fork the repo
-* Make improvements
-* Submit a pull request
-
+Y.
 ---
